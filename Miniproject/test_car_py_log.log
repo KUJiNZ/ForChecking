@@ -1,88 +1,101 @@
-01/23/2023 01:50:10PM __pytest__ INFO: Successful:
+01/23/2023 02:22:41PM __pytest__ INFO: Successful:
+    Name: Artiom
     Function Name: test_get_trip
     Description: Testing func get_trip from class car
     Input: None
     Output: Log
     :return: None
      
-01/23/2023 01:50:10PM __pytest__ INFO: Successful:
+01/23/2023 02:22:41PM __pytest__ INFO: Successful:
+    Name: Artiom
     Function Name: test_start_engine
     Description: Testing func start_engine from class car
     Input: None
     Output: Log
     :return: None
      
-01/23/2023 01:50:10PM __pytest__ INFO: Successful:
+01/23/2023 02:22:41PM __pytest__ INFO: Successful:
+    Name: Artiom
     Function Name: test_shut_engine
     Description: Testing func start_engine from class car
     Input: None
     Output: Log
     :return: None
      
-01/23/2023 01:50:10PM __pytest__ INFO: Successful:
+01/23/2023 02:22:41PM __pytest__ INFO: Successful:
+    Name: Artiom
     Function Name: test_insert_gear
     Description: Testing func insert_gear from class car
     Input: None
     Output: Log
     :return: None
      
-01/23/2023 01:50:10PM __pytest__ INFO: Successful:
+01/23/2023 02:22:41PM __pytest__ INFO: Successful:
+    Name: Artiom
     Function Name: test_count_speed
     Description: Testing func count_speed from class car
     Input: None
     Output: Log
     :return: None
      
-01/23/2023 01:50:10PM __pytest__ INFO: Successful:
+01/23/2023 02:22:41PM __pytest__ INFO: Successful:
+    Name: Artiom
     Function Name: test_get_fuel_left
     Description: Testing func get_fuel_left from class car
     Input: None
     Output: Log
     :return: None
      
-01/23/2023 01:50:10PM __pytest__ INFO: Successful:
+01/23/2023 02:22:41PM __pytest__ INFO: Successful:
+    Name: Artiom
     Function Name: test_count_km_left
     Description: Testing func count_km_left by fuel from class car
     Input: None
     Output: Log
     :return: None
      
-01/23/2023 01:50:10PM __pytest__ INFO: Successful:
+01/23/2023 02:22:41PM __pytest__ INFO: Successful:
+    Name: Artiom
     Function Name: test_get_money
     Description: Testing func get_money that printing money from class car
     Input: None
     Output: Log
     :return: None
      
-01/23/2023 01:50:10PM __pytest__ INFO: Successful:
+01/23/2023 02:22:41PM __pytest__ INFO: Successful:
+    Name: Artiom
     Function Name: test_add_speed
     Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
      
-01/23/2023 01:50:10PM __pytest__ INFO: Successful:
+01/23/2023 02:22:41PM __pytest__ INFO: Successful:
+    Name: Artiom
     Function Name: test_count_gear
     Description: Testing func count_gear from class car
     Input: None
     Output: Log
     :return: None
      
-01/23/2023 01:50:10PM __pytest__ INFO: Successful:
+01/23/2023 02:22:41PM __pytest__ INFO: Successful:
+    Name: Artiom
     Function Name: test_refuel
     Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
      
-01/23/2023 01:50:10PM __pytest__ INFO: Successful:
+01/23/2023 02:22:41PM __pytest__ INFO: Successful:
+    Name: Artiom
     Function Name: test_get_speed
     Description: Testing func get_speed from class car
     Input: None
     Output: Log
     :return: None
      
-01/23/2023 01:50:10PM __pytest__ INFO: Successful:
+01/23/2023 02:22:41PM __pytest__ INFO: Successful:
+    Name: Artiom
     Function Name: test_set_speed
     Description: Testing func get_speed from class car
     Input: None

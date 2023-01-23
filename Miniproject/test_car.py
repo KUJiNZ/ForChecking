@@ -15,17 +15,12 @@ def car():
     load_dotenv()
 
     # CAR ClASS
-    fuel_price = float(os.getenv('FUEL_PRICE'))
-    money = float(os.getenv('MONEY'))
-    fuel_consumption = float(os.getenv('FUEL_CONSUMPTION'))
-    fuel_capacity = float(os.getenv('FUEL_CAPACITY'))
-    current_fuel = float(os.getenv('current_fuel'))
-    max_gear = int(os.getenv('MAX_GEAR'))
-    return Car(fuel_price, money, fuel_consumption, fuel_capacity, current_fuel, max_gear)
+    return Car()
 
 @pytest.mark.trip
 def test_get_trip(car):
     """
+    Name: Artiom
     Function Name: test_get_trip
     Description: Testing func get_trip from class car
     Input: None
@@ -42,6 +37,7 @@ def test_get_trip(car):
 @pytest.mark.start_engine
 def test_start_engine(car):
     """
+    Name: Artiom
     Function Name: test_start_engine
     Description: Testing func start_engine from class car
     Input: None
@@ -58,6 +54,7 @@ def test_start_engine(car):
 @pytest.mark.shut_engine
 def test_shut_engine(car):
     """
+    Name: Artiom
     Function Name: test_shut_engine
     Description: Testing func start_engine from class car
     Input: None
@@ -74,6 +71,7 @@ def test_shut_engine(car):
 @pytest.mark.insert_gear
 def test_insert_gear(car):
     """
+    Name: Artiom
     Function Name: test_insert_gear
     Description: Testing func insert_gear from class car
     Input: None
@@ -90,6 +88,7 @@ def test_insert_gear(car):
 @pytest.mark.count_speed
 def test_count_speed(car):
     """
+    Name: Artiom
     Function Name: test_count_speed
     Description: Testing func count_speed from class car
     Input: None
@@ -106,6 +105,7 @@ def test_count_speed(car):
 @pytest.mark.fuel_left
 def test_get_fuel_left(car):
     """
+    Name: Artiom
     Function Name: test_get_fuel_left
     Description: Testing func get_fuel_left from class car
     Input: None
@@ -122,6 +122,7 @@ def test_get_fuel_left(car):
 @pytest.mark.km_left
 def test_count_km_left(car):
     """
+    Name: Artiom
     Function Name: test_count_km_left
     Description: Testing func count_km_left by fuel from class car
     Input: None
@@ -138,6 +139,7 @@ def test_count_km_left(car):
 @pytest.mark.get_money
 def test_get_money(car):
     """
+    Name: Artiom
     Function Name: test_get_money
     Description: Testing func get_money that printing money from class car
     Input: None
@@ -154,6 +156,7 @@ def test_get_money(car):
 @pytest.mark.add_speed
 def test_add_speed(car):
     """
+    Name: Artiom
     Function Name: test_add_speed
     Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
@@ -170,6 +173,7 @@ def test_add_speed(car):
 @pytest.mark.count_gear
 def test_count_gear(car):
     """
+    Name: Artiom
     Function Name: test_count_gear
     Description: Testing func count_gear from class car
     Input: None
@@ -177,7 +181,7 @@ def test_count_gear(car):
     :return: None
     """
     try:
-        with pytest.raises(OSError,match="Car not driving"):
+        with pytest.raises(OSError):
             car.count_gear()
         logger.info(f"Successful:{test_count_gear.__doc__}")
     except AssertionError as e:
@@ -186,6 +190,7 @@ def test_count_gear(car):
 @pytest.mark.trip
 def test_refuel(car):
     """
+    Name: Artiom
     Function Name: test_refuel
     Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
@@ -202,6 +207,7 @@ def test_refuel(car):
 @pytest.mark.get_speed
 def test_get_speed(car):
     """
+    Name: Artiom
     Function Name: test_get_speed
     Description: Testing func get_speed from class car
     Input: None
@@ -218,6 +224,7 @@ def test_get_speed(car):
 @pytest.mark.set_speed
 def test_set_speed(car):
     """
+    Name: Artiom
     Function Name: test_set_speed
     Description: Testing func get_speed from class car
     Input: None

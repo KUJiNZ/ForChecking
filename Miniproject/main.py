@@ -11,18 +11,8 @@ if __name__ == '__main__':
     LOG = Log("__main__","car_log_main.log")
     logger = LOG.logger
 
-
-
-    #INSTANCE OF CAR VIA ENV FILE
-    fuel_price = float(os.getenv('FUEL_PRICE'))
-    money = float(os.getenv('MONEY'))
-    fuel_consumption = float(os.getenv('FUEL_CONSUMPTION'))
-    fuel_capacity = float(os.getenv('FUEL_CAPACITY'))
-    current_fuel = float(os.getenv('current_fuel'))
-    max_gear = int(os.getenv('MAX_GEAR'))
-
-    car = Car(fuel_price, money, fuel_consumption, fuel_capacity, current_fuel, max_gear)
-
+    # CLASS CAR
+    car = Car()
 
     try:
         car.get_trip(float(os.getenv('NORMAL_TRIP_KM')))

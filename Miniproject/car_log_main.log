@@ -1,10 +1,7 @@
-01/23/2023 11:55:06AM - __main__INFO: Successful:
-        Function Name: get_trip
-        Description: Getting trip by km
-        Input: km to drive
-        Output: Ready
-        
-01/23/2023 01:53:29PM __main__INFO: Successful:
+
+         
+01/23/2023 02:22:09PM __main__INFO: Successful:
+        Name: Artiom
         Function Name: get_trip
         Description: Getting trip by km
         Input: km to drive
