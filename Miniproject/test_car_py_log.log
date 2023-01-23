@@ -1,0 +1,546 @@
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_get_trip
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_start_engine
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_start_engine
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_shut_engine
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_shut_engine
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_shut_engine
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_insert_gear
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_insert_gear
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_insert_gear
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_insert_gear
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_count_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_count_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_count_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_count_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_count_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_get_fuel_left
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_get_fuel_left
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_get_fuel_left
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_get_fuel_left
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_get_fuel_left
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_get_fuel_left
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_count_km_left
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_count_km_left
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_count_km_left
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_count_km_left
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_count_km_left
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_count_km_left
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_count_km_left
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_get_money
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_get_money
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_get_money
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_get_money
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_get_money
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_get_money
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_get_money
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_get_money
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_add_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_add_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_add_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_add_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_add_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_add_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_add_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_add_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_add_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_add_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_add_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_add_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_add_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_add_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_add_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_add_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_add_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_add_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_add_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_refuel
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_refuel
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_refuel
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_refuel
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_refuel
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_refuel
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_refuel
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_refuel
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_refuel
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_refuel
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_refuel
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_get_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_get_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_get_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_get_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_get_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_get_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_get_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_get_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_get_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_get_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_get_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_get_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_set_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_set_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_set_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_set_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_set_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_set_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_set_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_set_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_set_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_set_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_set_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_set_speed
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 09:23:12AM - pytestINFO: Successful:
+    Name: test_set_speed
+    Input: None
+    Output: Log
+    :return: None
+    

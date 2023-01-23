@@ -1,0 +1,82 @@
+2023-01-22 20:38:45,470 ERROR Error:Not enough fuel,trying to refuel,Function:
+             Function Name: get_trip
+             Description: Getting trip by km
+             Input: km to drive
+             Output: Ready
+        
+Traceback (most recent call last):
+  File "D:\PythonRepos\QA_Test\Miniproject\main.py", line 19, in <module>
+    car.get_trip(101110)
+  File "D:\PythonRepos\QA_Test\Miniproject\car.py", line 210, in get_trip
+    raise ValueError("Not enough fuel,trying to refuel")
+ValueError: Not enough fuel,trying to refuel
+2023-01-22 20:40:09,227 ERROR Error:Not enough fuel,trying to refuel
+
+             Function Name: get_trip
+             Description: Getting trip by km
+             Input: km to drive
+             Output: Ready
+        
+Traceback (most recent call last):
+  File "D:\PythonRepos\QA_Test\Miniproject\main.py", line 19, in <module>
+    car.get_trip(101110)
+  File "D:\PythonRepos\QA_Test\Miniproject\car.py", line 210, in get_trip
+    raise ValueError("Not enough fuel,trying to refuel")
+ValueError: Not enough fuel,trying to refuel
+2023-01-23 09:07:21,896 ERROR Error:Not enough fuel,trying to refuel
+
+             Function Name: get_trip
+             Description: Getting trip by km
+             Input: km to drive
+             Output: Ready
+        
+Traceback (most recent call last):
+  File "D:\PythonRepos\QA_Test\Miniproject\main.py", line 19, in <module>
+    car.get_trip(101110)
+  File "D:\PythonRepos\QA_Test\Miniproject\car.py", line 217, in get_trip
+    raise ValueError("Not enough fuel,trying to refuel")
+ValueError: Not enough fuel,trying to refuel
+2023-01-23 09:08:28,663 INFO Successful
+
+             Function Name: get_trip
+             Description: Getting trip by km
+             Input: km to drive
+             Output: Ready
+        
+2023-01-23 09:32:10,296 INFO Successful
+
+             Function Name: get_trip
+             Description: Getting trip by km
+             Input: km to drive
+             Output: Ready
+        
+2023-01-23 09:32:51,266 INFO Successful:
+             Function Name: get_trip
+             Description: Getting trip by km
+             Input: km to drive
+             Output: Ready
+        
+2023-01-23 09:33:08,368 ERROR Error:Not enough fuel,trying to refuel:
+             Function Name: get_trip
+             Description: Getting trip by km
+             Input: km to drive
+             Output: Ready
+        
+Traceback (most recent call last):
+  File "D:\PythonRepos\QA_Test\Miniproject\main.py", line 19, in <module>
+    car.get_trip(1110)
+  File "D:\PythonRepos\QA_Test\Miniproject\car.py", line 217, in get_trip
+    raise ValueError("Not enough fuel,trying to refuel")
+ValueError: Not enough fuel,trying to refuel
+2023-01-23 09:33:36,076 ERROR 
+             Function Name: get_trip
+             Description: Getting trip by km
+             Input: km to drive
+             Output: Ready
+         Not enough fuel,trying to refuel
+Traceback (most recent call last):
+  File "D:\PythonRepos\QA_Test\Miniproject\main.py", line 19, in <module>
+    car.get_trip(1110)
+  File "D:\PythonRepos\QA_Test\Miniproject\car.py", line 217, in get_trip
+    raise ValueError("Not enough fuel,trying to refuel")
+ValueError: Not enough fuel,trying to refuel
