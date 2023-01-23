@@ -1,545 +1,643 @@
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_get_trip
+01/23/2023 11:24:41AM - pytestINFO: Successful:
+    Function Name: test_shut_engine
+    Description: Testing func start_engine from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_start_engine
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_get_trip
+    Description: Testing func get_trip from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_start_engine
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_start_engine
+    Description: Testing func start_engine from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_shut_engine
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_start_engine
+    Description: Testing func start_engine from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_shut_engine
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_shut_engine
+    Description: Testing func start_engine from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_shut_engine
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_shut_engine
+    Description: Testing func start_engine from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_insert_gear
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_shut_engine
+    Description: Testing func start_engine from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_insert_gear
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_insert_gear
+    Description: Testing func insert_gear from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_insert_gear
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_insert_gear
+    Description: Testing func insert_gear from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_insert_gear
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_insert_gear
+    Description: Testing func insert_gear from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_count_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_insert_gear
+    Description: Testing func insert_gear from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_count_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_count_speed
+    Description: Testing func count_speed from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_count_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_count_speed
+    Description: Testing func count_speed from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_count_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_count_speed
+    Description: Testing func count_speed from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_count_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_count_speed
+    Description: Testing func count_speed from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_get_fuel_left
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_count_speed
+    Description: Testing func count_speed from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_get_fuel_left
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_get_fuel_left
+    Description: Testing func get_fuel_left from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_get_fuel_left
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_get_fuel_left
+    Description: Testing func get_fuel_left from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_get_fuel_left
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_get_fuel_left
+    Description: Testing func get_fuel_left from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_get_fuel_left
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_get_fuel_left
+    Description: Testing func get_fuel_left from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_get_fuel_left
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_get_fuel_left
+    Description: Testing func get_fuel_left from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_count_km_left
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_get_fuel_left
+    Description: Testing func get_fuel_left from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_count_km_left
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_count_km_left
+    Description: Testing func count_km_left by fuel from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_count_km_left
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_count_km_left
+    Description: Testing func count_km_left by fuel from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_count_km_left
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_count_km_left
+    Description: Testing func count_km_left by fuel from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_count_km_left
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_count_km_left
+    Description: Testing func count_km_left by fuel from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_count_km_left
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_count_km_left
+    Description: Testing func count_km_left by fuel from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_count_km_left
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_count_km_left
+    Description: Testing func count_km_left by fuel from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_get_money
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_count_km_left
+    Description: Testing func count_km_left by fuel from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_get_money
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_get_money
+    Description: Testing func get_money that printing money from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_get_money
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_get_money
+    Description: Testing func get_money that printing money from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_get_money
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_get_money
+    Description: Testing func get_money that printing money from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_get_money
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_get_money
+    Description: Testing func get_money that printing money from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_get_money
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_get_money
+    Description: Testing func get_money that printing money from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_get_money
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_get_money
+    Description: Testing func get_money that printing money from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_get_money
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_get_money
+    Description: Testing func get_money that printing money from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_add_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_get_money
+    Description: Testing func get_money that printing money from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_add_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_add_speed
+    Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_add_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_add_speed
+    Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_add_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_add_speed
+    Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_add_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_add_speed
+    Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_add_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_add_speed
+    Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_add_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_add_speed
+    Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_add_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_add_speed
+    Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_add_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_add_speed
+    Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_add_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_add_speed
+    Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_add_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_add_speed
+    Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_add_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_add_speed
+    Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_add_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_add_speed
+    Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_add_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_add_speed
+    Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_add_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_add_speed
+    Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_add_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_add_speed
+    Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_add_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_add_speed
+    Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_add_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_add_speed
+    Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_add_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_add_speed
+    Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_refuel
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_add_speed
+    Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_refuel
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_refuel
+    Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_refuel
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_refuel
+    Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_refuel
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_refuel
+    Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_refuel
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_refuel
+    Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_refuel
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_refuel
+    Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_refuel
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_refuel
+    Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_refuel
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_refuel
+    Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_refuel
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_refuel
+    Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_refuel
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_refuel
+    Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_refuel
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_refuel
+    Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_get_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_refuel
+    Description: Testing func add_speed that adding speed manually (optional method) from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_get_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_get_speed
+    Description: Testing func get_speed from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_get_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_get_speed
+    Description: Testing func get_speed from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_get_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_get_speed
+    Description: Testing func get_speed from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_get_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_get_speed
+    Description: Testing func get_speed from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_get_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_get_speed
+    Description: Testing func get_speed from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_get_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_get_speed
+    Description: Testing func get_speed from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_get_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_get_speed
+    Description: Testing func get_speed from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_get_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_get_speed
+    Description: Testing func get_speed from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_get_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_get_speed
+    Description: Testing func get_speed from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_get_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_get_speed
+    Description: Testing func get_speed from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_get_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_get_speed
+    Description: Testing func get_speed from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_set_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_get_speed
+    Description: Testing func get_speed from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_set_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_set_speed
+    Description: Testing func get_speed from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_set_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_set_speed
+    Description: Testing func get_speed from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_set_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_set_speed
+    Description: Testing func get_speed from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_set_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_set_speed
+    Description: Testing func get_speed from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_set_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_set_speed
+    Description: Testing func get_speed from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_set_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_set_speed
+    Description: Testing func get_speed from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_set_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_set_speed
+    Description: Testing func get_speed from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_set_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_set_speed
+    Description: Testing func get_speed from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_set_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_set_speed
+    Description: Testing func get_speed from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_set_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_set_speed
+    Description: Testing func get_speed from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_set_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_set_speed
+    Description: Testing func get_speed from class car
     Input: None
     Output: Log
     :return: None
     
-01/23/2023 09:23:12AM - pytestINFO: Successful:
-    Name: test_set_speed
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_set_speed
+    Description: Testing func get_speed from class car
+    Input: None
+    Output: Log
+    :return: None
+    
+01/23/2023 11:25:45AM - pytestINFO: Successful:
+    Function Name: test_set_speed
+    Description: Testing func get_speed from class car
     Input: None
     Output: Log
     :return: None

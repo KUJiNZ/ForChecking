@@ -35,12 +35,13 @@ class TestCar(unittest.TestCase):
     def test_get_trip(self):
         """
         Function Name: test_get_trip
-        Input: None
+        Description: Testing func get_trip from class car
+        Input: Must get km
         Output: Log
         :return: None
         """
         try:
-            x = self.car.get_trip(100)
+            x = self.car.get_trip(float(os.getenv('NORMAL_TRIP_KM')))
             self.assertTrue(x)
             logging.getLogger("test").info(f"Successful:{self.test_get_trip.__doc__}")
         except AssertionError as e:
@@ -49,6 +50,7 @@ class TestCar(unittest.TestCase):
     def test_start_engine(self):
         """
         Function Name: test_start_engine
+        Description: Testing func start_engine from class car
         Input: None
         Output: Log
         :return: None
@@ -63,13 +65,14 @@ class TestCar(unittest.TestCase):
     def test_shut_engine(self):
         """
         Function Name: test_shut_engine
+        Description: Testing func shut_engine from class car
         Input: None
         Output: Log
         :return: None
         """
         try:
-            x = self.car.shut_engine()
-            self.assertTrue(x)
+            with self.assertRaises(Exception):
+                 self.car.shut_engine()
             logging.getLogger("test").info(f"Successful:{self.test_shut_engine.__doc__}")
         except AssertionError as e:
             logging.getLogger("test").exception(f"{self.test_shut_engine.__doc__} Error:{e}")
@@ -77,13 +80,13 @@ class TestCar(unittest.TestCase):
     def test_insert_gear(self):
         """
         Function Name: test_insert_gear
+        Description: Testing func insert_gear from class car
         Input: None
         Output: Log
         :return: None
         """
         try:
-            self.car.start_engine()
-            x = self.car.insert_gear(4)
+            x = self.car.insert_gear(float(os.getenv('NORMAL_GEAR')))
             self.assertTrue(x)
             logging.getLogger("test").info(f"Successful:{self.test_insert_gear.__doc__}")
         except AssertionError as e:
@@ -92,12 +95,12 @@ class TestCar(unittest.TestCase):
     def test_count_speed(self):
         """
         Function Name: test_count_speed
+        Description: Testing func count_speed from class car
         Input: None
         Output: Log
         :return: None
         """
         try:
-            self.car.start_engine()
             x = self.car.count_speed()
             self.assertTrue(x)
             logging.getLogger("test").info(f"Successful:{self.test_count_speed.__doc__}")
@@ -107,6 +110,7 @@ class TestCar(unittest.TestCase):
     def test_get_fuel_left(self):
         """
         Function Name: test_get_fuel_left
+        Description: Testing func get_fuel_left from class car
         Input: None
         Output: Log
         :return: None
@@ -121,6 +125,7 @@ class TestCar(unittest.TestCase):
     def test_count_km_left(self):
         """
         Function Name: test_count_km_left
+        Description: Testing func count_km_left by fuel from class car
         Input: None
         Output: Log
         :return: None
@@ -135,6 +140,7 @@ class TestCar(unittest.TestCase):
     def test_get_money(self):
         """
         Function Name: test_get_money
+        Description: Testing func get_money that printing money from class car
         Input: None
         Output: Log
         :return: None
@@ -149,13 +155,14 @@ class TestCar(unittest.TestCase):
     def test_add_speed(self):
         """
         Function Name: test_add_speed
+        Description: Testing func add_speed that adding speed manually (optional method) from class car
         Input: None
         Output: Log
         :return: None
         """
         try:
             self.car.start_engine()
-            x = self.car.add_speed(10)
+            x = self.car.add_speed(float(os.getenv('ADD_NORMAL_SPEED')))
             self.assertTrue(x)
             logging.getLogger("test").info(f"Successful:{self.test_add_speed.__doc__}")
         except AssertionError as e:
@@ -164,14 +171,14 @@ class TestCar(unittest.TestCase):
     def test_count_gear(self):
         """
         Function Name: test_count_gear
+        Description: Testing func count_gear from class car
         Input: None
         Output: Log
         :return: None
         """
         try:
-            self.car.start_engine()
-            x = self.car.count_gear()
-            self.assertTrue(x)
+            with self.assertRaises(OSError):
+                self.car.count_gear()
             logging.getLogger("test").info(f"Successful:{self.test_add_speed.__doc__}")
         except AssertionError as e:
             logging.getLogger("test").exception(f"{self.test_add_speed.__doc__} Error:{e}")
@@ -179,6 +186,7 @@ class TestCar(unittest.TestCase):
     def test_refuel(self):
         """
         Function Name: test_refuel
+        Description: Testing func add_speed that adding speed manually (optional method) from class car
         Input: None
         Output: Log
         :return: None
@@ -193,6 +201,7 @@ class TestCar(unittest.TestCase):
     def test_get_speed(self):
         """
         Function Name: test_get_speed
+        Description: Testing func get_speed from class car
         Input: None
         Output: Log
         :return: None
@@ -207,12 +216,13 @@ class TestCar(unittest.TestCase):
     def test_set_speed(self):
         """
         Function Name: test_set_speed
+        Description: Testing func get_speed from class car
         Input: None
         Output: Log
         :return: None
         """
         try:
-            x = self.car.set_speed(100)
+            x = self.car.set_speed(float(os.getenv('NORMAL_SPEED_TO_SET')))
             self.assertTrue(x)
             logging.getLogger("test").info(f"Successful:{self.test_set_speed.__doc__}")
         except AssertionError as e:

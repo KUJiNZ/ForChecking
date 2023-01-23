@@ -47,25 +47,29 @@ class Car:
 
     def shut_engine(self):
         """
-                     Function Name: shut_engine
-                     Description: Shut down the engine
-                     Input: None
-                     Output: Engine is shut down
-                """
-        self.engine_start = False
-        print("Engine is shut down")
-        return True
+        Function Name: shut_engine
+        Description: Shut down the engine
+        Input: None
+        Output: Engine is shut down
+        """
+        if self.engine_start is True:
+            self.engine_start = False
+            print("Engine is shut down")
+            return True
+        else:
+            raise Exception("Engine is shut yet")
+
 
 
 
     def insert_gear(self,gear_num):
         """
-                     Function Name: insert_gear
-                     Description: Inserting gear
-                     Input: number of gear
-                     Output: Current gear
-                """
-        if self.max_gear > gear_num > 0 and self.engine_start is True:
+        Function Name: insert_gear
+        Description: Inserting gear
+        Input: number of gear
+        Output: Current gear
+        """
+        if self.max_gear > gear_num > 0:
             self.gear = gear_num
             return True
         else:
@@ -73,35 +77,35 @@ class Car:
 
     def count_speed(self):
         """
-                     Function Name: count_speed
-                     Description: Counting current speed
-                     Input: None
-                     Output: Current speed
-                """
-        if self.engine_start is True:
+        Function Name: count_speed
+        Description: Counting current speed
+        Input: None
+        Output: Current speed
+        """
+        if self.gear is not None and self.kmh_increasing is not None:
             self.speed = self.gear * self.kmh_increasing
             return True
         else:
-            raise Exception("Engine is shut,first start engine")
+            raise Exception("Gear or kmh_increasing is None")
 
 
     def get_fuel_left(self):
         """
-                     Function Name: get_fuel_left
-                     Description: Get current fuel
-                     Input: None
-                     Output: Current fuel
-                """
+        Function Name: get_fuel_left
+        Description: Get current fuel
+        Input: None
+        Output: Current fuel
+        """
         print(f"Fuel = {self.current_fuel}")
         return True
 
     def count_km_left(self):
         """
-                     Function Name: count_km_left
-                     Description: Counting how much km can drive
-                     Input: None
-                     Output: None
-                """
+        Function Name: count_km_left
+        Description: Counting how much km can drive
+        Input: None
+        Output: None
+        """
         self.km_left = self.current_fuel / self.fuel_consumption
         return True
 
@@ -110,22 +114,22 @@ class Car:
 
     def get_money(self):
         """
-                     Function Name: get_money
-                     Description: Getting money
-                     Input: None
-                     Output: None
-                """
+        Function Name: get_money
+        Description: Getting money
+        Input: None
+        Output: None
+        """
         print(self.money)
         return True
 
 
     def add_speed(self,num):
         """
-                     Function Name: add_speed
-                     Description: Manually adding speed
-                     Input: None
-                     Output: Current speed
-                """
+        Function Name: add_speed
+        Description: Manually adding speed
+        Input: None
+        Output: Current speed
+        """
         if self.engine_start is True and (self.speed == 0 or (self.speed*self.max_gear) > self.speed + num):
             self.speed += num
             self.count_gear()
@@ -136,12 +140,12 @@ class Car:
 
     def count_gear(self):
         """
-                     Function Name: count_gear
-                     Description: Counting number of gear while insert speed manually
-                     Input: None
-                     Output: Engine is started
-                """
-        if self.engine_start is True:
+        Function Name: count_gear
+        Description: Counting number of gear while insert speed manually
+        Input: None
+        Output: Engine is started
+        """
+        if self.speed > 0:
             if self.speed > 30:
                 self.gear = round(self.speed / 30)
             else:
@@ -149,16 +153,17 @@ class Car:
             print(f"Gear = {self.gear}")
             return True
         else:
-            raise Exception("Engine is shut!")
+            self.gear = 0
+            raise OSError("Car not driving")
 
 
     def refuel(self):
         """
-                     Function Name: refuel
-                     Description: Fefuel the car by money
-                     Input: None
-                     Output: Engine is started
-                """
+        Function Name: refuel
+        Description: Fefuel the car by money
+        Input: None
+        Output: Engine is started
+        """
         if self.money > 0:
             price = self.fuel_price * (self.fuel_capacity - self.current_fuel)
             need = self.fuel_capacity - self.current_fuel
@@ -175,19 +180,19 @@ class Car:
 
     def get_speed(self):
         """
-                     Function Name: get_speed
-                     Description: Getting speed
-                     Input: None
-                     Output: Current_speed
-                """
+        Function Name: get_speed
+        Description: Getting speed
+        Input: None
+        Output: Current_speed
+        """
         print(f"Speed = {self.speed}")
         return True
 
     def set_speed(self,speed):
         """
-               Function Name: set_speed
-               Description: Manually setting speed
-               Input: speed
+        Function Name: set_speed
+        Description: Manually setting speed
+        Input: speed
         """
         if speed <= self.max_gear*self.kmh_increasing:
             self.speed = speed
@@ -199,10 +204,10 @@ class Car:
 
     def get_trip(self,km_to_pass):
         """
-             Function Name: get_trip
-             Description: Getting trip by km
-             Input: km to drive
-             Output: Ready
+        Function Name: get_trip
+        Description: Getting trip by km
+        Input: km to drive
+        Output: Ready
         """
         if self.km_left >= km_to_pass:
             self.start_engine()
