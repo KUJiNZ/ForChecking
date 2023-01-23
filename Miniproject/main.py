@@ -2,14 +2,16 @@ import os
 from dotenv import load_dotenv
 from car import Car
 import logging
-
+from log import Log
 if __name__ == '__main__':
     # ENV FILE
     load_dotenv()
 
-    #BASIC LOGGER
-    logging.basicConfig(level=logging.INFO, filename="car_log_main.log", filemode="a", format="%(asctime)s %("
-                                                                                              "levelname)s %(message)s")
+    #LOGGER
+    LOG = Log("__main__","car_log_main.log")
+    logger = LOG.logger
+
+
 
     #INSTANCE OF CAR VIA ENV FILE
     fuel_price = float(os.getenv('FUEL_PRICE'))
@@ -23,9 +25,9 @@ if __name__ == '__main__':
 
 
     try:
-        car.get_trip(10)
-        logging.info(f"Successful:{car.get_trip.__doc__}")
+        car.get_trip(float(os.getenv('NORMAL_TRIP_KM')))
+        logger.info(f"Successful:{car.get_trip.__doc__}")
     except Exception as e:
-        logging.exception(f"{car.get_trip.__doc__} {e}")
+        logger.exception(f"{car.get_trip.__doc__} {e}")
 
 

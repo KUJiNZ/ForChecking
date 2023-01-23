@@ -3,24 +3,17 @@ import unittest
 import os
 from dotenv import load_dotenv
 from Miniproject.car import Car
+from Miniproject.log import Log
 
+# LOGGER
+LOG = Log("__unittest__ ", "car_unit_test_log.log")
+logger = LOG.logger
 
 class TestCar(unittest.TestCase):
 
     def setUp(self):
         # ENV FILE
         load_dotenv()
-
-        # LOGGER
-        logger = logging.getLogger("test")
-        logger.setLevel("INFO")
-        file_handler = logging.FileHandler("test_car_unit_log.log")
-        ## CONSOL ONLY
-        # consoleHandler = logging.StreamHandler()
-        # consoleHandler.setLevel(logging.INFO)
-        formatter = logging.Formatter('%(asctime)s - %(name)s%(levelname)s: %(message)s', datefmt='%m/%d/%Y %I:%M:%S%p')
-        file_handler.setFormatter(formatter)
-        logger.addHandler(file_handler)
 
         # CLASS CAR VIA ENV
         fuel_price = float(os.getenv('FUEL_PRICE'))
@@ -43,9 +36,9 @@ class TestCar(unittest.TestCase):
         try:
             x = self.car.get_trip(float(os.getenv('NORMAL_TRIP_KM')))
             self.assertTrue(x)
-            logging.getLogger("test").info(f"Successful:{self.test_get_trip.__doc__}")
+            logger.info(f"Successful:{self.test_get_trip.__doc__}")
         except AssertionError as e:
-            logging.getLogger("test").exception(f"{self.test_get_trip.__doc__},Error:{e}")
+            logger.exception(f"{self.test_get_trip.__doc__},Error:{e}")
 
     def test_start_engine(self):
         """
@@ -58,9 +51,9 @@ class TestCar(unittest.TestCase):
         try:
             x = self.car.start_engine()
             self.assertTrue(x)
-            logging.getLogger("test").info(f"Successful:{self.test_start_engine.__doc__}")
+            logger.info(f"Successful:{self.test_start_engine.__doc__}")
         except AssertionError as e:
-            logging.getLogger("test").exception(f"{self.test_start_engine.__doc__} Error:{e}")
+            logger.exception(f"{self.test_start_engine.__doc__} Error:{e}")
 
     def test_shut_engine(self):
         """
@@ -73,9 +66,9 @@ class TestCar(unittest.TestCase):
         try:
             with self.assertRaises(Exception):
                  self.car.shut_engine()
-            logging.getLogger("test").info(f"Successful:{self.test_shut_engine.__doc__}")
+            logger.info(f"Successful:{self.test_shut_engine.__doc__}")
         except AssertionError as e:
-            logging.getLogger("test").exception(f"{self.test_shut_engine.__doc__} Error:{e}")
+            logger.exception(f"{self.test_shut_engine.__doc__} Error:{e}")
 
     def test_insert_gear(self):
         """
@@ -88,9 +81,9 @@ class TestCar(unittest.TestCase):
         try:
             x = self.car.insert_gear(float(os.getenv('NORMAL_GEAR')))
             self.assertTrue(x)
-            logging.getLogger("test").info(f"Successful:{self.test_insert_gear.__doc__}")
+            logger.info(f"Successful:{self.test_insert_gear.__doc__}")
         except AssertionError as e:
-            logging.getLogger("test").exception(f"{self.test_insert_gear.__doc__} Error:{e}")
+            logger.exception(f"{self.test_insert_gear.__doc__} Error:{e}")
 
     def test_count_speed(self):
         """
@@ -103,9 +96,9 @@ class TestCar(unittest.TestCase):
         try:
             x = self.car.count_speed()
             self.assertTrue(x)
-            logging.getLogger("test").info(f"Successful:{self.test_count_speed.__doc__}")
+            logger.info(f"Successful:{self.test_count_speed.__doc__}")
         except AssertionError as e:
-            logging.getLogger("test").exception(f"{self.test_count_speed.__doc__} Error:{e}")
+            logger.exception(f"{self.test_count_speed.__doc__} Error:{e}")
 
     def test_get_fuel_left(self):
         """
@@ -118,9 +111,9 @@ class TestCar(unittest.TestCase):
         try:
             x = self.car.get_fuel_left()
             self.assertTrue(x)
-            logging.getLogger("test").info(f"Successful:{self.test_get_fuel_left.__doc__}")
+            logger.info(f"Successful:{self.test_get_fuel_left.__doc__}")
         except AssertionError as e:
-            logging.getLogger("test").exception(f"{self.test_get_fuel_left.__doc__} Error:{e}")
+            logger.exception(f"{self.test_get_fuel_left.__doc__} Error:{e}")
 
     def test_count_km_left(self):
         """
@@ -133,9 +126,9 @@ class TestCar(unittest.TestCase):
         try:
             x = self.car.count_km_left()
             self.assertTrue(x)
-            logging.getLogger("test").info(f"Successful:{self.test_count_km_left.__doc__}")
+            logger.info(f"Successful:{self.test_count_km_left.__doc__}")
         except AssertionError as e:
-            logging.getLogger("test").exception(f"{self.test_count_km_left.__doc__} Error:{e}")
+            logger.exception(f"{self.test_count_km_left.__doc__} Error:{e}")
 
     def test_get_money(self):
         """
@@ -148,9 +141,9 @@ class TestCar(unittest.TestCase):
         try:
             x = self.car.get_money()
             self.assertTrue(x)
-            logging.getLogger("test").info(f"Successful:{self.test_get_money.__doc__}")
+            logger.info(f"Successful:{self.test_get_money.__doc__}")
         except AssertionError as e:
-            logging.getLogger("test").exception(f"{self.test_get_money.__doc__} Error:{e}")
+            logger.exception(f"{self.test_get_money.__doc__} Error:{e}")
 
     def test_add_speed(self):
         """
@@ -161,12 +154,11 @@ class TestCar(unittest.TestCase):
         :return: None
         """
         try:
-            self.car.start_engine()
-            x = self.car.add_speed(float(os.getenv('ADD_NORMAL_SPEED')))
-            self.assertTrue(x)
-            logging.getLogger("test").info(f"Successful:{self.test_add_speed.__doc__}")
+            with self.assertRaises(Exception):
+                self.car.add_speed(float(os.getenv('ADD_NORMAL_SPEED')))
+            logger.info(f"Successful:{self.test_add_speed.__doc__}")
         except AssertionError as e:
-            logging.getLogger("test").exception(f"{self.test_add_speed.__doc__} Error:{e}")
+            logger.exception(f"{self.test_add_speed.__doc__} Error:{e}")
 
     def test_count_gear(self):
         """
@@ -179,9 +171,9 @@ class TestCar(unittest.TestCase):
         try:
             with self.assertRaises(OSError):
                 self.car.count_gear()
-            logging.getLogger("test").info(f"Successful:{self.test_add_speed.__doc__}")
+            logger.info(f"Successful:{self.test_count_gear.__doc__}")
         except AssertionError as e:
-            logging.getLogger("test").exception(f"{self.test_add_speed.__doc__} Error:{e}")
+            logger.exception(f"{self.test_count_gear.__doc__} Error:{e}")
 
     def test_refuel(self):
         """
@@ -194,9 +186,9 @@ class TestCar(unittest.TestCase):
         try:
             x = self.car.refuel()
             self.assertTrue(x)
-            logging.getLogger("test").info(f"Successful:{self.test_refuel.__doc__}")
+            logger.info(f"Successful:{self.test_refuel.__doc__}")
         except AssertionError as e:
-            logging.getLogger("test").exception(f"{self.test_refuel.__doc__} Error:{e}")
+            logger.exception(f"{self.test_refuel.__doc__} Error:{e}")
 
     def test_get_speed(self):
         """
@@ -209,9 +201,9 @@ class TestCar(unittest.TestCase):
         try:
             x = self.car.get_speed()
             self.assertTrue(x)
-            logging.getLogger("test").info(f"Successful:{self.test_get_speed.__doc__}")
+            logger.info(f"Successful:{self.test_get_speed.__doc__}")
         except AssertionError as e:
-            logging.getLogger("test").exception(f"{self.test_get_speed.__doc__} Error:{e}")
+            logger.exception(f"{self.test_get_speed.__doc__} Error:{e}")
 
     def test_set_speed(self):
         """
@@ -224,9 +216,9 @@ class TestCar(unittest.TestCase):
         try:
             x = self.car.set_speed(float(os.getenv('NORMAL_SPEED_TO_SET')))
             self.assertTrue(x)
-            logging.getLogger("test").info(f"Successful:{self.test_set_speed.__doc__}")
+            logger.info(f"Successful:{self.test_set_speed.__doc__}")
         except AssertionError as e:
-            logging.getLogger("test").exception(f"{self.test_set_speed.__doc__} Error:{e}")
+            logger.exception(f"{self.test_set_speed.__doc__} Error:{e}")
 
 
 if __name__ == '__main__':

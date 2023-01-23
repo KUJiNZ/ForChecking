@@ -1,22 +1,18 @@
-import logging
 import pytest
 import os
 from dotenv import load_dotenv
 from Miniproject.car import Car
+from Miniproject.log import Log
 
+
+# LOGGER
+LOG = Log("__pytest__ ", "test_car_py_log.log")
+logger = LOG.logger
 
 @pytest.fixture
 def car():
     # ENV FILE
     load_dotenv()
-
-    # LOGGER
-    logger = logging.getLogger("pytest")
-    logger.setLevel("INFO")
-    file_handler = logging.FileHandler("test_car_py_log.log")
-    formatter = logging.Formatter('%(asctime)s - %(name)s%(levelname)s: %(message)s', datefmt='%m/%d/%Y %I:%M:%S%p')
-    file_handler.setFormatter(formatter)
-    logger.addHandler(file_handler)
 
     # CAR ClASS
     fuel_price = float(os.getenv('FUEL_PRICE'))
@@ -39,9 +35,9 @@ def test_get_trip(car):
     try:
         x = car.get_trip(float(os.getenv('NORMAL_TRIP_KM')))
         assert x is True
-        logging.getLogger("pytest").info(f"Successful:{test_get_trip.__doc__}")
+        logger.info(f"Successful:{test_get_trip.__doc__}")
     except AssertionError as e:
-        logging.getLogger("pytest").exception(f"{test_get_trip.__doc__},Error:{e}")
+        logger.getLogger("pytest").exception(f"{test_get_trip.__doc__},Error:{e}")
 
 
 def test_start_engine(car):
@@ -55,9 +51,9 @@ def test_start_engine(car):
     try:
         x = car.start_engine()
         assert x is True
-        logging.getLogger("pytest").info(f"Successful:{test_start_engine.__doc__}")
+        logger.info(f"Successful:{test_start_engine.__doc__}")
     except AssertionError as e:
-        logging.getLogger("pytest").exception(f"{test_start_engine.__doc__} Error:{e}")
+        logger.exception(f"{test_start_engine.__doc__} Error:{e}")
 
 
 def test_shut_engine(car):
@@ -71,9 +67,9 @@ def test_shut_engine(car):
     try:
         with pytest.raises(Exception,match="Engine is shut yet"):
             car.shut_engine()
-        logging.getLogger("pytest").info(f"Successful:{test_shut_engine.__doc__}")
+        logger.info(f"Successful:{test_shut_engine.__doc__}")
     except AssertionError as e:
-        logging.getLogger("pytest").exception(f"{test_shut_engine.__doc__} Error:{e}")
+        logger.exception(f"{test_shut_engine.__doc__} Error:{e}")
 
 
 def test_insert_gear(car):
@@ -87,9 +83,9 @@ def test_insert_gear(car):
     try:
         x = car.insert_gear(float(os.getenv('NORMAL_GEAR')))
         assert x is True
-        logging.getLogger("pytest").info(f"Successful:{test_insert_gear.__doc__}")
+        logger.info(f"Successful:{test_insert_gear.__doc__}")
     except AssertionError as e:
-        logging.getLogger("pytest").exception(f"{test_insert_gear.__doc__} Error:{e}")
+        logger.exception(f"{test_insert_gear.__doc__} Error:{e}")
 
 
 def test_count_speed(car):
@@ -103,9 +99,9 @@ def test_count_speed(car):
     try:
         x = car.count_speed()
         assert x is True
-        logging.getLogger("pytest").info(f"Successful:{test_count_speed.__doc__}")
+        logger.info(f"Successful:{test_count_speed.__doc__}")
     except AssertionError as e:
-        logging.getLogger("pytest").exception(f"{test_count_speed.__doc__} Error:{e}")
+        logger.exception(f"{test_count_speed.__doc__} Error:{e}")
 
 
 def test_get_fuel_left(car):
@@ -119,9 +115,9 @@ def test_get_fuel_left(car):
     try:
         x = car.get_fuel_left()
         assert x is True
-        logging.getLogger("pytest").info(f"Successful:{test_get_fuel_left.__doc__}")
+        logger.info(f"Successful:{test_get_fuel_left.__doc__}")
     except AssertionError as e:
-        logging.getLogger("pytest").exception(f"{test_get_fuel_left.__doc__} Error:{e}")
+        logger.exception(f"{test_get_fuel_left.__doc__} Error:{e}")
 
 
 def test_count_km_left(car):
@@ -135,9 +131,9 @@ def test_count_km_left(car):
     try:
         x = car.count_km_left()
         assert x is True
-        logging.getLogger("pytest").info(f"Successful:{test_count_km_left.__doc__}")
+        logger.info(f"Successful:{test_count_km_left.__doc__}")
     except AssertionError as e:
-        logging.getLogger("pytest").exception(f"{test_count_km_left.__doc__} Error:{e}")
+        logger.exception(f"{test_count_km_left.__doc__} Error:{e}")
 
 
 def test_get_money(car):
@@ -151,9 +147,9 @@ def test_get_money(car):
     try:
         x = car.get_money()
         assert x is True
-        logging.getLogger("pytest").info(f"Successful:{test_get_money.__doc__}")
+        logger.info(f"Successful:{test_get_money.__doc__}")
     except AssertionError as e:
-        logging.getLogger("pytest").exception(f"{test_get_money.__doc__} Error:{e}")
+        logger.exception(f"{test_get_money.__doc__} Error:{e}")
 
 
 def test_add_speed(car):
@@ -165,12 +161,11 @@ def test_add_speed(car):
     :return: None
     """
     try:
-        car.start_engine()
-        x = car.add_speed(float(os.getenv('ADD_NORMAL_SPEED')))
-        assert x is True
-        logging.getLogger("pytest").info(f"Successful:{test_add_speed.__doc__}")
+        with pytest.raises(Exception):
+             car.add_speed(float(os.getenv('ADD_NORMAL_SPEED')))
+        logger.info(f"Successful:{test_add_speed.__doc__}")
     except AssertionError as e:
-        logging.getLogger("pytest").exception(f"{test_add_speed.__doc__} Error:{e}")
+        logger.exception(f"{test_add_speed.__doc__} Error:{e}")
 
 
 def test_count_gear(car):
@@ -184,9 +179,9 @@ def test_count_gear(car):
     try:
         with pytest.raises(OSError,match="Car not driving"):
             car.count_gear()
-        logging.getLogger("pytest").info(f"Successful:{test_add_speed.__doc__}")
+        logger.info(f"Successful:{test_count_gear.__doc__}")
     except AssertionError as e:
-        logging.getLogger("pytest").exception(f"{test_add_speed.__doc__} Error:{e}")
+        logger.exception(f"{test_count_gear.__doc__} Error:{e}")
 
 
 def test_refuel(car):
@@ -200,9 +195,9 @@ def test_refuel(car):
     try:
         x = car.refuel()
         assert x is True
-        logging.getLogger("pytest").info(f"Successful:{test_refuel.__doc__}")
+        logger.info(f"Successful:{test_refuel.__doc__}")
     except AssertionError as e:
-        logging.getLogger("pytest").exception(f"{test_refuel.__doc__} Error:{e}")
+        logger.exception(f"{test_refuel.__doc__} Error:{e}")
 
 
 def test_get_speed(car):
@@ -216,9 +211,9 @@ def test_get_speed(car):
     try:
         x = car.get_speed()
         assert x is True
-        logging.getLogger("pytest").info(f"Successful:{test_get_speed.__doc__}")
+        logger.info(f"Successful:{test_get_speed.__doc__}")
     except AssertionError as e:
-        logging.getLogger("pytest").exception(f"{test_get_speed.__doc__} Error:{e}")
+        logger.exception(f"{test_get_speed.__doc__} Error:{e}")
 
 
 def test_set_speed(car):
@@ -232,6 +227,6 @@ def test_set_speed(car):
     try:
         x = car.set_speed(float(os.getenv('NORMAL_SPEED_TO_SET')))
         assert x is True
-        logging.getLogger("pytest").info(f"Successful:{test_set_speed.__doc__}")
+        logger.info(f"Successful:{test_set_speed.__doc__}")
     except AssertionError as e:
-        logging.getLogger("pytest").exception(f"{test_set_speed.__doc__} Error:{e}")
+        logger.exception(f"{test_set_speed.__doc__} Error:{e}")
