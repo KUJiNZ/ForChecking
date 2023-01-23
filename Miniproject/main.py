@@ -1,8 +1,8 @@
 import os
 from dotenv import load_dotenv
 from car import Car
-import logging
 from log import Log
+
 if __name__ == '__main__':
     # ENV FILE
     load_dotenv()

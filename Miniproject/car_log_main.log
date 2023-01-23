@@ -4,3 +4,9 @@
         Input: km to drive
         Output: Ready
         
+01/23/2023 01:53:29PM __main__INFO: Successful:
+        Function Name: get_trip
+        Description: Getting trip by km
+        Input: km to drive
+        Output: Ready
+         
