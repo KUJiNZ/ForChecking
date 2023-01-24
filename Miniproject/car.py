@@ -1,34 +1,25 @@
 import os
 from dotenv import load_dotenv
+
+
 class Car:
-    fuel_price = 0
-    money = 0
     gear = 0
-    max_gear = 0
     speed = 0
-    fuel_consumption = 0 #per 100km
-    kmh_increasing = 30
-    fuel_capacity = 0
-    current_fuel = 0
-    engine_start = False
     km_left = 0
     max_speed = 0
-
 
     def __init__(self):
         # INSERT OF CAR VIA ENV FILE
         load_dotenv()
+        self.engine_start = False
         self.fuel_price = float(os.getenv('FUEL_PRICE'))
         self.money = float(os.getenv('MONEY'))
         self.fuel_consumption = float(os.getenv('FUEL_CONSUMPTION'))
         self.fuel_capacity = float(os.getenv('FUEL_CAPACITY'))
-        self.current_fuel = float(os.getenv('current_fuel'))
+        self.current_fuel = float(os.getenv('CURRENT_FUEL'))
         self.max_gear = int(os.getenv('MAX_GEAR'))
+        self.kmh_increasing = float(os.getenv('KMH_INCREASING'))
         self.count_km_left()
-
-
-
-
 
     def start_engine(self):
         """
@@ -45,10 +36,6 @@ class Car:
         else:
             raise Exception("Engine is started or gear is set!")
 
-
-
-
-
     def shut_engine(self):
         """
         Name: Artiom
@@ -64,10 +51,7 @@ class Car:
         else:
             raise Exception("Engine is shut yet")
 
-
-
-
-    def insert_gear(self,gear_num):
+    def insert_gear(self, gear_num):
         """
         Name: Artiom
         Function Name: insert_gear
@@ -95,7 +79,6 @@ class Car:
         else:
             raise Exception("Gear or kmh_increasing is None")
 
-
     def get_fuel_left(self):
         """
         Name: Artiom
@@ -118,9 +101,6 @@ class Car:
         self.km_left = self.current_fuel / self.fuel_consumption
         return True
 
-
-
-
     def get_money(self):
         """
         Name: Artiom
@@ -132,8 +112,7 @@ class Car:
         print(self.money)
         return True
 
-
-    def add_speed(self,num):
+    def add_speed(self, num):
         """
         Name: Artiom
         Function Name: add_speed
@@ -141,7 +120,7 @@ class Car:
         Input: None
         Output: Current speed
         """
-        if self.engine_start is True and (self.speed == 0 or (self.speed*self.max_gear) > self.speed + num):
+        if self.engine_start is True and (self.speed == 0 or (self.speed * self.max_gear) > self.speed + num):
             self.speed += num
             self.count_gear()
             self.get_speed()
@@ -158,8 +137,8 @@ class Car:
         Output: Engine is started
         """
         if self.speed > 0:
-            if self.speed > 30:
-                self.gear = round(self.speed / 30)
+            if self.speed > self.kmh_increasing:
+                self.gear = round(self.speed / self.kmh_increasing)
             else:
                 self.gear = 1
             print(f"Gear = {self.gear}")
@@ -179,19 +158,18 @@ class Car:
         print(f"Speed = {self.speed}")
         return True
 
-    def set_speed(self,speed):
+    def set_speed(self, speed):
         """
         Name: Artiom
         Function Name: set_speed
         Description: Manually setting speed
         Input: speed
         """
-        if speed <= self.max_gear*self.kmh_increasing:
+        if speed <= self.max_gear * self.kmh_increasing:
             self.speed = speed
             return True
         else:
             raise Exception("Illegal speed insert!")
-
 
     def refuel(self):
         """
@@ -209,13 +187,13 @@ class Car:
                 self.current_fuel += need
                 print("The car is max filled successfully!")
             else:
-                self.current_fuel += self.money/self.fuel_price
+                self.current_fuel += self.money / self.fuel_price
                 raise Warning("Not enough money to fill full tank,will be fill max as possible")
             return True
         else:
             raise Exception("Not enough money to refuel")
 
-    def get_trip(self,km_to_pass):
+    def get_trip(self, km_to_pass):
         """
         Name: Artiom
         Function Name: get_trip
@@ -232,11 +210,9 @@ class Car:
             self.km_left -= km_to_pass
             self.current_fuel -= km_to_pass * self.fuel_consumption
             print("DRIVING")
-            self.set_speed(120)
+            self.set_speed(float(os.getenv('SPEED_TO_SET_NUM')))
             self.get_speed()
             self.count_gear()
             return True
         else:
-            raise ValueError("Not enough fuel,need to refuel")
-
-
+            raise ValueError("Not enough fuel!")

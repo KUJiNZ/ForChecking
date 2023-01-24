@@ -7,3 +7,84 @@
         Input: km to drive
         Output: Ready
          
+01/23/2023 02:34:36PM __main__INFO: Successful:
+        Name: Artiom
+        Function Name: get_trip
+        Description: Getting trip by km
+        Input: km to drive
+        Output: Ready
+         
+01/23/2023 02:47:44PM __main__ERROR: 
+        Name: Artiom
+        Function Name: get_trip
+        Description: Getting trip by km
+        Input: km to drive
+        Output: Ready
+         could not convert string to float: '1001#' 
+Traceback (most recent call last):
+  File "D:\PythonRepos\QA_Test\Miniproject\main.py", line 18, in <module>
+    car.get_trip(float(os.getenv('NORMAL_TRIP_KM')))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: '1001#'
+01/23/2023 02:47:56PM __main__ERROR: 
+        Name: Artiom
+        Function Name: get_trip
+        Description: Getting trip by km
+        Input: km to drive
+        Output: Ready
+         could not convert string to float: '1001#' 
+Traceback (most recent call last):
+  File "D:\PythonRepos\QA_Test\Miniproject\main.py", line 18, in <module>
+    car.get_trip(float(os.getenv('NORMAL_TRIP_KM')))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: '1001#'
+01/23/2023 02:48:07PM __main__ERROR: 
+        Name: Artiom
+        Function Name: get_trip
+        Description: Getting trip by km
+        Input: km to drive
+        Output: Ready
+         could not convert string to float: '1001#' 
+Traceback (most recent call last):
+  File "D:\PythonRepos\QA_Test\Miniproject\main.py", line 18, in <module>
+    car.get_trip(float(os.getenv('NORMAL_TRIP_KM')))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: '1001#'
+01/23/2023 02:49:13PM __main__ERROR: 
+        Name: Artiom
+        Function Name: get_trip
+        Description: Getting trip by km
+        Input: km to drive
+        Output: Ready
+         could not convert string to float: '1001#' 
+Traceback (most recent call last):
+  File "D:\PythonRepos\QA_Test\Miniproject\main.py", line 18, in <module>
+    car.get_trip(float(os.getenv('NORMAL_TRIP_KM')))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: '1001#'
+01/23/2023 02:49:44PM __main__ERROR: 
+        Name: Artiom
+        Function Name: get_trip
+        Description: Getting trip by km
+        Input: km to drive
+        Output: Ready
+         could not convert string to float: '1001#' 
+Traceback (most recent call last):
+  File "D:\PythonRepos\QA_Test\Miniproject\main.py", line 18, in <module>
+    car.get_trip(float(os.getenv('NORMAL_TRIP_KM')))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: '1001#'
+01/23/2023 02:50:12PM __main__INFO: Successful:
+        Name: Artiom
+        Function Name: get_trip
+        Description: Getting trip by km
+        Input: km to drive
+        Output: Ready
+         
+01/23/2023 02:50:21PM __main__INFO: Successful:
+        Name: Artiom
+        Function Name: get_trip
+        Description: Getting trip by km
+        Input: km to drive
+        Output: Ready
+         

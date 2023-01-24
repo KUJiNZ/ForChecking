@@ -1,4 +1,20 @@
-01/23/2023 02:22:21PM __unittest__ INFO: Successful:
+01/24/2023 10:10:40PM __unittest__ ERROR: 
+        Name: Artiom
+        Function Name: test_get_trip
+        Description: Testing func get_trip from class car
+        Input: Must get km
+        Output: Log
+        :return: None
+         Error:ValueError not raised 
+Traceback (most recent call last):
+  File "D:\PythonRepos\QA_Test\Miniproject\unit_test_car.py", line 31, in test_get_trip
+    with self.assertRaises(ValueError):
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\unittest\case.py", line 262, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\unittest\case.py", line 199, in _raiseFailure
+    raise self.test_case.failureException(msg)
+AssertionError: ValueError not raised
+01/24/2023 11:26:29PM __unittest__ INFO: 
         Name: Artiom
         Function Name: test_add_speed
         Description: Testing func add_speed that adding speed manually (optional method) from class car
@@ -6,7 +22,7 @@
         Output: Log
         :return: None
          
-01/23/2023 02:22:21PM __unittest__ INFO: Successful:
+01/24/2023 11:26:29PM __unittest__ INFO: 
         Name: Artiom
         Function Name: test_count_gear
         Description: Testing func count_gear from class car
@@ -14,7 +30,7 @@
         Output: Log
         :return: None
          
-01/23/2023 02:22:21PM __unittest__ INFO: Successful:
+01/24/2023 11:26:29PM __unittest__ INFO: 
         Name: Artiom
         Function Name: test_count_km_left
         Description: Testing func count_km_left by fuel from class car
@@ -22,7 +38,7 @@
         Output: Log
         :return: None
          
-01/23/2023 02:22:21PM __unittest__ INFO: Successful:
+01/24/2023 11:26:29PM __unittest__ INFO: 
         Name: Artiom
         Function Name: test_count_speed
         Description: Testing func count_speed from class car
@@ -30,7 +46,7 @@
         Output: Log
         :return: None
          
-01/23/2023 02:22:21PM __unittest__ INFO: Successful:
+01/24/2023 11:26:29PM __unittest__ INFO: Successful:
         Name: Artiom
         Function Name: test_get_fuel_left
         Description: Testing func get_fuel_left from class car
@@ -38,7 +54,7 @@
         Output: Log
         :return: None
          
-01/23/2023 02:22:21PM __unittest__ INFO: Successful:
+01/24/2023 11:26:29PM __unittest__ INFO: 
         Name: Artiom
         Function Name: test_get_money
         Description: Testing func get_money that printing money from class car
@@ -46,7 +62,7 @@
         Output: Log
         :return: None
          
-01/23/2023 02:22:21PM __unittest__ INFO: Successful:
+01/24/2023 11:26:29PM __unittest__ INFO: 
         Name: Artiom
         Function Name: test_get_speed
         Description: Testing func get_speed from class car
@@ -54,15 +70,23 @@
         Output: Log
         :return: None
          
-01/23/2023 02:22:21PM __unittest__ INFO: Successful:
+01/24/2023 11:26:29PM __unittest__ ERROR: 
         Name: Artiom
         Function Name: test_get_trip
         Description: Testing func get_trip from class car
         Input: Must get km
         Output: Log
         :return: None
-         
-01/23/2023 02:22:21PM __unittest__ INFO: Successful:
+         Error:ValueError not raised 
+Traceback (most recent call last):
+  File "D:\PythonRepos\QA_Test\Miniproject\unit_test_car.py", line 31, in test_get_trip
+    with self.assertRaises(ValueError):
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\unittest\case.py", line 262, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\unittest\case.py", line 199, in _raiseFailure
+    raise self.test_case.failureException(msg)
+AssertionError: ValueError not raised
+01/24/2023 11:26:30PM __unittest__ INFO: 
         Name: Artiom
         Function Name: test_insert_gear
         Description: Testing func insert_gear from class car
@@ -70,7 +94,7 @@
         Output: Log
         :return: None
          
-01/23/2023 02:22:21PM __unittest__ INFO: Successful:
+01/24/2023 11:26:30PM __unittest__ INFO: Successful:
         Name: Artiom
         Function Name: test_refuel
         Description: Testing func add_speed that adding speed manually (optional method) from class car
@@ -78,7 +102,7 @@
         Output: Log
         :return: None
          
-01/23/2023 02:22:21PM __unittest__ INFO: Successful:
+01/24/2023 11:26:30PM __unittest__ INFO: 
         Name: Artiom
         Function Name: test_set_speed
         Description: Testing func get_speed from class car
@@ -86,7 +110,7 @@
         Output: Log
         :return: None
          
-01/23/2023 02:22:21PM __unittest__ INFO: Successful:
+01/24/2023 11:26:30PM __unittest__ INFO: 
         Name: Artiom
         Function Name: test_shut_engine
         Description: Testing func shut_engine from class car
@@ -94,7 +118,223 @@
         Output: Log
         :return: None
          
-01/23/2023 02:22:21PM __unittest__ INFO: Successful:
+01/24/2023 11:26:30PM __unittest__ INFO: 
+        Name: Artiom
+        Function Name: test_start_engine
+        Description: Testing func start_engine from class car
+        Input: None
+        Output: Log
+        :return: None
+         
+01/24/2023 11:27:22PM __unittest__ INFO: 
+        Name: Artiom
+        Function Name: test_add_speed
+        Description: Testing func add_speed that adding speed manually (optional method) from class car
+        Input: None
+        Output: Log
+        :return: None
+         
+01/24/2023 11:27:22PM __unittest__ INFO: 
+        Name: Artiom
+        Function Name: test_count_gear
+        Description: Testing func count_gear from class car
+        Input: None
+        Output: Log
+        :return: None
+         
+01/24/2023 11:27:22PM __unittest__ INFO: 
+        Name: Artiom
+        Function Name: test_count_km_left
+        Description: Testing func count_km_left by fuel from class car
+        Input: None
+        Output: Log
+        :return: None
+         
+01/24/2023 11:27:22PM __unittest__ INFO: 
+        Name: Artiom
+        Function Name: test_count_speed
+        Description: Testing func count_speed from class car
+        Input: None
+        Output: Log
+        :return: None
+         
+01/24/2023 11:27:22PM __unittest__ INFO: Successful:
+        Name: Artiom
+        Function Name: test_get_fuel_left
+        Description: Testing func get_fuel_left from class car
+        Input: None
+        Output: Log
+        :return: None
+         
+01/24/2023 11:27:22PM __unittest__ INFO: 
+        Name: Artiom
+        Function Name: test_get_money
+        Description: Testing func get_money that printing money from class car
+        Input: None
+        Output: Log
+        :return: None
+         
+01/24/2023 11:27:22PM __unittest__ INFO: 
+        Name: Artiom
+        Function Name: test_get_speed
+        Description: Testing func get_speed from class car
+        Input: None
+        Output: Log
+        :return: None
+         
+01/24/2023 11:27:22PM __unittest__ ERROR: 
+        Name: Artiom
+        Function Name: test_get_trip
+        Description: Testing func get_trip from class car
+        Input: Must get km
+        Output: Log
+        :return: None
+         Error:ValueError not raised 
+Traceback (most recent call last):
+  File "D:\PythonRepos\QA_Test\Miniproject\unit_test_car.py", line 31, in test_get_trip
+    with self.assertRaises(ValueError):
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\unittest\case.py", line 262, in __exit__
+    self._raiseFailure("{} not raised".format(exc_name))
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\unittest\case.py", line 199, in _raiseFailure
+    raise self.test_case.failureException(msg)
+AssertionError: ValueError not raised
+01/24/2023 11:27:22PM __unittest__ INFO: 
+        Name: Artiom
+        Function Name: test_insert_gear
+        Description: Testing func insert_gear from class car
+        Input: None
+        Output: Log
+        :return: None
+         
+01/24/2023 11:27:22PM __unittest__ INFO: Successful:
+        Name: Artiom
+        Function Name: test_refuel
+        Description: Testing func add_speed that adding speed manually (optional method) from class car
+        Input: None
+        Output: Log
+        :return: None
+         
+01/24/2023 11:27:22PM __unittest__ INFO: 
+        Name: Artiom
+        Function Name: test_set_speed
+        Description: Testing func get_speed from class car
+        Input: None
+        Output: Log
+        :return: None
+         
+01/24/2023 11:27:22PM __unittest__ INFO: 
+        Name: Artiom
+        Function Name: test_shut_engine
+        Description: Testing func shut_engine from class car
+        Input: None
+        Output: Log
+        :return: None
+         
+01/24/2023 11:27:22PM __unittest__ INFO: 
+        Name: Artiom
+        Function Name: test_start_engine
+        Description: Testing func start_engine from class car
+        Input: None
+        Output: Log
+        :return: None
+         
+01/24/2023 11:28:38PM __unittest__ INFO: 
+        Name: Artiom
+        Function Name: test_add_speed
+        Description: Testing func add_speed that adding speed manually (optional method) from class car
+        Input: None
+        Output: Log
+        :return: None
+         
+01/24/2023 11:28:38PM __unittest__ INFO: 
+        Name: Artiom
+        Function Name: test_count_gear
+        Description: Testing func count_gear from class car
+        Input: None
+        Output: Log
+        :return: None
+         
+01/24/2023 11:28:38PM __unittest__ INFO: 
+        Name: Artiom
+        Function Name: test_count_km_left
+        Description: Testing func count_km_left by fuel from class car
+        Input: None
+        Output: Log
+        :return: None
+         
+01/24/2023 11:28:38PM __unittest__ INFO: 
+        Name: Artiom
+        Function Name: test_count_speed
+        Description: Testing func count_speed from class car
+        Input: None
+        Output: Log
+        :return: None
+         
+01/24/2023 11:28:38PM __unittest__ INFO: Successful:
+        Name: Artiom
+        Function Name: test_get_fuel_left
+        Description: Testing func get_fuel_left from class car
+        Input: None
+        Output: Log
+        :return: None
+         
+01/24/2023 11:28:38PM __unittest__ INFO: 
+        Name: Artiom
+        Function Name: test_get_money
+        Description: Testing func get_money that printing money from class car
+        Input: None
+        Output: Log
+        :return: None
+         
+01/24/2023 11:28:38PM __unittest__ INFO: 
+        Name: Artiom
+        Function Name: test_get_speed
+        Description: Testing func get_speed from class car
+        Input: None
+        Output: Log
+        :return: None
+         
+01/24/2023 11:28:38PM __unittest__ INFO: 
+        Name: Artiom
+        Function Name: test_get_trip
+        Description: Testing func get_trip from class car
+        Input: Must get km
+        Output: Log
+        :return: None
+         
+01/24/2023 11:28:38PM __unittest__ INFO: 
+        Name: Artiom
+        Function Name: test_insert_gear
+        Description: Testing func insert_gear from class car
+        Input: None
+        Output: Log
+        :return: None
+         
+01/24/2023 11:28:38PM __unittest__ INFO: Successful:
+        Name: Artiom
+        Function Name: test_refuel
+        Description: Testing func add_speed that adding speed manually (optional method) from class car
+        Input: None
+        Output: Log
+        :return: None
+         
+01/24/2023 11:28:38PM __unittest__ INFO: 
+        Name: Artiom
+        Function Name: test_set_speed
+        Description: Testing func get_speed from class car
+        Input: None
+        Output: Log
+        :return: None
+         
+01/24/2023 11:28:38PM __unittest__ INFO: 
+        Name: Artiom
+        Function Name: test_shut_engine
+        Description: Testing func shut_engine from class car
+        Input: None
+        Output: Log
+        :return: None
+         
+01/24/2023 11:28:38PM __unittest__ INFO: 
         Name: Artiom
         Function Name: test_start_engine
         Description: Testing func start_engine from class car

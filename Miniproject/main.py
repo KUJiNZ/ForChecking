@@ -7,8 +7,8 @@ if __name__ == '__main__':
     # ENV FILE
     load_dotenv()
 
-    #LOGGER
-    LOG = Log("__main__","car_log_main.log")
+    # LOGGER
+    LOG = Log("__main__", "car_log_main.log")
     logger = LOG.logger
 
     # CLASS CAR
@@ -19,5 +19,3 @@ if __name__ == '__main__':
         logger.info(f"Successful:{car.get_trip.__doc__}")
     except Exception as e:
         logger.exception(f"{car.get_trip.__doc__} {e}")
-
-
